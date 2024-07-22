@@ -1,0 +1,1692 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{67d6f466-8ebd-4277-a627-6e34578ca2a2}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Forms">
+      <UniqueIdentifier>{d0c40b92-66eb-49a4-949e-406266b91260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Forms\Record">
+      <UniqueIdentifier>{295620fd-35f2-4327-8522-fc75c73931a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Forms\Creature">
+      <UniqueIdentifier>{7a8743e4-216d-4c1c-91a8-53eb953a9ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Forms\Cell">
+      <UniqueIdentifier>{ec440281-b1d7-47c0-b532-8d7738366e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Forms\Script">
+      <UniqueIdentifier>{356a0162-3e55-44f3-8918-7cd1c224f35d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Forms\NPC">
+      <UniqueIdentifier>{49a86ae5-0896-4eac-a980-b378a878d131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Forms\Base">
+      <UniqueIdentifier>{7ae391f9-224d-4d71-a9e9-55f59015b335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Forms\Child">
+      <UniqueIdentifier>{c9009e47-2e22-4792-a0d6-55d2ed67c011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Forms\General">
+      <UniqueIdentifier>{37cc1d32-4484-42c3-94d6-43f329f10d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Forms\ScriptTemplate">
+      <UniqueIdentifier>{0aecf6be-6ea9-4792-bc06-2b63c543899c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{032c702f-13a5-4e5e-b559-2924fa014074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{4c593cd9-2f5e-43f7-bbc8-276f134a80f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ESM">
+      <UniqueIdentifier>{a15dd0e4-d54f-4d8e-a4de-f4a44d993559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ESM\Records">
+      <UniqueIdentifier>{c8a9b1db-b1cd-4a6b-a34f-29d625a3674e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ESM\SubRecords">
+      <UniqueIdentifier>{31df78c6-1ec3-419d-a467-2f89e9feac89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ESM\Script1">
+      <UniqueIdentifier>{bb905b61-c430-444d-815f-de6c7091b841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{22645db4-bcd5-42ae-8676-2b7440d2b7db}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Forms.">
+      <UniqueIdentifier>{05b50710-c038-4f24-974e-4f86c4433d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Forms.\Record.">
+      <UniqueIdentifier>{faa7e7db-2ced-4838-bb7d-cd0679162342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Forms.\Creature.">
+      <UniqueIdentifier>{1f911426-74c4-4a35-949e-78057637613d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Forms.\Cell.">
+      <UniqueIdentifier>{b53e5373-42fa-4bd3-b631-7c7396a53256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Forms.\Script.">
+      <UniqueIdentifier>{b61e551e-872f-4d27-a305-4211e48027f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Forms.\NPC.">
+      <UniqueIdentifier>{2ab4f1bb-773f-43fe-8ce8-f7139f7a5015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Forms.\Base.">
+      <UniqueIdentifier>{e800f98a-ad0c-4b6d-a13b-8307dea041a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Forms.\General.">
+      <UniqueIdentifier>{7729c18f-6556-4f9a-bd86-75323d5f01c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Forms.\Child.">
+      <UniqueIdentifier>{48ad9229-4c90-4527-afad-95b0fa464df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Forms.\ScriptTemplate.">
+      <UniqueIdentifier>{a120c009-3e92-40ef-acbf-ea81ad192942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Misc.">
+      <UniqueIdentifier>{63559460-fc22-452b-9802-be26ddf3975e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common.">
+      <UniqueIdentifier>{46387996-c913-493c-b012-c37daf14da62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ESM.">
+      <UniqueIdentifier>{10223342-d9fe-4940-b034-f50395206de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ESM.\Records.">
+      <UniqueIdentifier>{60ce66b2-95ae-4f3d-beb0-3521c33db3b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ESM.\SubRecords.">
+      <UniqueIdentifier>{cef05c06-be9e-45db-9da9-00f26796f535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ESM.\Script1.">
+      <UniqueIdentifier>{30278760-0c68-4e4e-bc60-4463dcefda71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Devil.">
+      <UniqueIdentifier>{87a1172f-abad-4118-9417-5292061a2904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{3ebbd855-fa20-45b5-bd49-39fba38f6d12}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MWEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MWEditDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmCsvImportDlg.cpp">
+      <Filter>Source Files\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmFindDlg.cpp">
+      <Filter>Source Files\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmHeaderDlg.cpp">
+      <Filter>Source Files\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmLoadDlg.cpp">
+      <Filter>Source Files\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmOptionsDlg.cpp">
+      <Filter>Source Files\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmScriptCompareDlg.cpp">
+      <Filter>Source Files\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmUsesDlg.cpp">
+      <Filter>Source Files\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="MWEditView.cpp">
+      <Filter>Source Files\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenPluginDlg.cpp">
+      <Filter>Source Files\Forms</Filter>
+    </ClCompile>
+    <ClCompile Include="ActivatorDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmAiActivateDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmAiEscortDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmAiTravelDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmAiWanderDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmAlchemyDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmApparatusDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmArmorDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmBirthSignDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmBodyPartDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmBookDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmClassDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmClothingDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmContainDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmDialogDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmDoorDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmEffectDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmEnchantDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmFactionDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmGlobalDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmInfoDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmIngrediantDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmJournalDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmLevelCreaDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmLevelItemDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmLightDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmLockPickDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmMiscDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmProbeDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmRaceDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmRegionDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmRepairDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmSettingDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmSkillDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmSoundDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmSoundGenDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmSpellDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmStartScriptDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmStaticDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmWeaponDlg.cpp">
+      <Filter>Source Files\Forms\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="CreaturePage1.cpp">
+      <Filter>Source Files\Forms\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="CreaturePage2.cpp">
+      <Filter>Source Files\Forms\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmCreatureDlg.cpp">
+      <Filter>Source Files\Forms\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmCreaturePage1.cpp">
+      <Filter>Source Files\Forms\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmCreaturePage2.cpp">
+      <Filter>Source Files\Forms\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmCreaturePage3.cpp">
+      <Filter>Source Files\Forms\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmCreaturePage4.cpp">
+      <Filter>Source Files\Forms\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmCreaturePage5.cpp">
+      <Filter>Source Files\Forms\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmCellDlg.cpp">
+      <Filter>Source Files\Forms\Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmCellRefDlg.cpp">
+      <Filter>Source Files\Forms\Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmExtCellPage.cpp">
+      <Filter>Source Files\Forms\Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmIntCellPage.cpp">
+      <Filter>Source Files\Forms\Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmRefCellPage.cpp">
+      <Filter>Source Files\Forms\Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrmScript.cpp">
+      <Filter>Source Files\Forms\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmFuncHelpView.cpp">
+      <Filter>Source Files\Forms\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmScriptDlg.cpp">
+      <Filter>Source Files\Forms\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptErrorDlg.cpp">
+      <Filter>Source Files\Forms\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptErrorView.cpp">
+      <Filter>Source Files\Forms\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmNpcDlg.cpp">
+      <Filter>Source Files\Forms\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmNpcPage1.cpp">
+      <Filter>Source Files\Forms\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmNpcPage2.cpp">
+      <Filter>Source Files\Forms\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmNpcPage3.cpp">
+      <Filter>Source Files\Forms\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmNpcPage4.cpp">
+      <Filter>Source Files\Forms\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmNpcPage5.cpp">
+      <Filter>Source Files\Forms\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmDlgArray.cpp">
+      <Filter>Source Files\Forms\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmRecDialog.cpp">
+      <Filter>Source Files\Forms\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source Files\Forms\Child</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrmFix.cpp">
+      <Filter>Source Files\Forms\Child</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrmVar.cpp">
+      <Filter>Source Files\Forms\Child</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files\Forms\Child</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorStatic1.cpp">
+      <Filter>Source Files\Forms\General</Filter>
+    </ClCompile>
+    <ClCompile Include="CustRichEdit.cpp">
+      <Filter>Source Files\Forms\General</Filter>
+    </ClCompile>
+    <ClCompile Include="editundo.cpp">
+      <Filter>Source Files\Forms\General</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmIconFrame.cpp">
+      <Filter>Source Files\Forms\General</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmListCtrl.cpp">
+      <Filter>Source Files\Forms\General</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmSubListCtrl.cpp">
+      <Filter>Source Files\Forms\General</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDialog.cpp">
+      <Filter>Source Files\Forms\General</Filter>
+    </ClCompile>
+    <ClCompile Include="splitterwnd.cpp">
+      <Filter>Source Files\Forms\General</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmScrTempPage1.cpp">
+      <Filter>Source Files\Forms\ScriptTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmScrTempPage2.cpp">
+      <Filter>Source Files\Forms\ScriptTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmScrTempPage3.cpp">
+      <Filter>Source Files\Forms\ScriptTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmScrTempView.cpp">
+      <Filter>Source Files\Forms\ScriptTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptTemplate.cpp">
+      <Filter>Source Files\Forms\ScriptTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dl_base.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dl_block.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dl_chr.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dl_err.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dl_file.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dl_log.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dl_math.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dl_mem.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dl_str.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\dl_time.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorDialog.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\File\genfile.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\File\genfind.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Contain\GenStack.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Utility\namelist.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Contain\ptrarray.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\String\SString.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Contain\temarray.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\tstfile.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmCsvDefs.cpp">
+      <Filter>Source Files\ESM</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmGlobOptions.cpp">
+      <Filter>Source Files\ESM</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmOptions.cpp">
+      <Filter>Source Files\ESM</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmUtils.cpp">
+      <Filter>Source Files\ESM</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmScrFuncArray.cpp">
+      <Filter>Source Files\ESM\Script1</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmScrFuncData.cpp">
+      <Filter>Source Files\ESM\Script1</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmScriptCompile.cpp">
+      <Filter>Source Files\ESM\Script1</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmScriptCompileEx.cpp">
+      <Filter>Source Files\ESM\Script1</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmScriptDefs.cpp">
+      <Filter>Source Files\ESM\Script1</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmScriptError.cpp">
+      <Filter>Source Files\ESM\Script1</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmScriptFuncs.cpp">
+      <Filter>Source Files\ESM\Script1</Filter>
+    </ClCompile>
+    <ClCompile Include="EsmScriptOptions.cpp">
+      <Filter>Source Files\ESM\Script1</Filter>
+    </ClCompile>
+    <ClCompile Include="mwcustomfunc.cpp">
+      <Filter>Source Files\ESM\Script1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmActivator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmAlchemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmApparatus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmArmor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmBirthSign.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmBodyPart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmBook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmCell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmClothing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmCreature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmDialogue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmDoor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmEnchant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmFaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmGameSetting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmGlobal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmIngrediant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmItem1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmItem2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmItem3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmLand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmLevelCrea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmLevelItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmLockPick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmMagicEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmMisc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmNpc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmProbe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmRace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmRegion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmRepair.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmScript.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmSkill.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmSound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmSoundGen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmSpell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmStartScript.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmStatic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmSubBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmSubCellRef.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmSubName.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmSubSCVR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmTES3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\EsmWeapon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\esm\mwcommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\File\csvfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Windows\dl_ToolTip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Windows\TabCtrlSheet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Windows\WinUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MWEdit.rc">
+      <Filter>Source Files\Misc</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MWEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MWEditDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmCsvImportDlg.h">
+      <Filter>Header Files\Forms.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmFindDlg.h">
+      <Filter>Header Files\Forms.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmHeaderDlg.h">
+      <Filter>Header Files\Forms.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmLoadDlg.h">
+      <Filter>Header Files\Forms.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmOptionsDlg.h">
+      <Filter>Header Files\Forms.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmScriptCompareDlg.h">
+      <Filter>Header Files\Forms.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmUsesDlg.h">
+      <Filter>Header Files\Forms.</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files\Forms.</Filter>
+    </ClInclude>
+    <ClInclude Include="MWEditView.h">
+      <Filter>Header Files\Forms.</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenPluginDlg.h">
+      <Filter>Header Files\Forms.</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivatorDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmAiActivateDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmAiEscortDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmAiTravelDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmAiWanderDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmAlchemyDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmApparatusDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmArmorDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmBirthSignDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmBodyPartDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmBookDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmClassDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmClothingDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmContainDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmDialogDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmDoorDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmEffectDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmEnchantDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmFactionDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmGlobalDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmInfoDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmIngrediantDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmJournalDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmLevelCreaDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmLevelItemDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmLightDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmLockPickDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmMiscDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmProbeDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmRaceDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmRegionDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmRepairDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmSettingDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmSkillDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmSoundDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmSoundGenDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmSpellDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmStartScriptDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmStaticDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmWeaponDlg.h">
+      <Filter>Header Files\Forms.\Record.</Filter>
+    </ClInclude>
+    <ClInclude Include="CreaturePage1.h">
+      <Filter>Header Files\Forms.\Creature.</Filter>
+    </ClInclude>
+    <ClInclude Include="CreaturePage2.h">
+      <Filter>Header Files\Forms.\Creature.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmCreatureDlg.h">
+      <Filter>Header Files\Forms.\Creature.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmCreaturePage1.h">
+      <Filter>Header Files\Forms.\Creature.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmCreaturePage2.h">
+      <Filter>Header Files\Forms.\Creature.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmCreaturePage3.h">
+      <Filter>Header Files\Forms.\Creature.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmCreaturePage4.h">
+      <Filter>Header Files\Forms.\Creature.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmCreaturePage5.h">
+      <Filter>Header Files\Forms.\Creature.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmCellDlg.h">
+      <Filter>Header Files\Forms.\Cell.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmCellRefDlg.h">
+      <Filter>Header Files\Forms.\Cell.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmExtCellPage.h">
+      <Filter>Header Files\Forms.\Cell.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmIntCellPage.h">
+      <Filter>Header Files\Forms.\Cell.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmRefCellPage.h">
+      <Filter>Header Files\Forms.\Cell.</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrmScript.h">
+      <Filter>Header Files\Forms.\Script.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmFuncHelpView.h">
+      <Filter>Header Files\Forms.\Script.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmScriptDlg.h">
+      <Filter>Header Files\Forms.\Script.</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptErrorDlg.h">
+      <Filter>Header Files\Forms.\Script.</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptErrorView.h">
+      <Filter>Header Files\Forms.\Script.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmNpcDlg.h">
+      <Filter>Header Files\Forms.\NPC.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmNpcPage1.h">
+      <Filter>Header Files\Forms.\NPC.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmNpcPage2.h">
+      <Filter>Header Files\Forms.\NPC.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmNpcPage3.h">
+      <Filter>Header Files\Forms.\NPC.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmNpcPage4.h">
+      <Filter>Header Files\Forms.\NPC.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmNpcPage5.h">
+      <Filter>Header Files\Forms.\NPC.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmDlgArray.h">
+      <Filter>Header Files\Forms.\Base.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmRecDialog.h">
+      <Filter>Header Files\Forms.\Base.</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorStatic1.h">
+      <Filter>Header Files\Forms.\General.</Filter>
+    </ClInclude>
+    <ClInclude Include="CustRichEdit.h">
+      <Filter>Header Files\Forms.\General.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmIconFrame.h">
+      <Filter>Header Files\Forms.\General.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmListCtrl.h">
+      <Filter>Header Files\Forms.\General.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmSubListCtrl.h">
+      <Filter>Header Files\Forms.\General.</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDialog.h">
+      <Filter>Header Files\Forms.\General.</Filter>
+    </ClInclude>
+    <ClInclude Include="splitterwnd.h">
+      <Filter>Header Files\Forms.\General.</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Header Files\Forms.\Child.</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrmFix.h">
+      <Filter>Header Files\Forms.\Child.</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrmVar.h">
+      <Filter>Header Files\Forms.\Child.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmScrTempPage1.h">
+      <Filter>Header Files\Forms.\ScriptTemplate.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmScrTempPage2.h">
+      <Filter>Header Files\Forms.\ScriptTemplate.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmScrTempPage3.h">
+      <Filter>Header Files\Forms.\ScriptTemplate.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmScrTempView.h">
+      <Filter>Header Files\Forms.\ScriptTemplate.</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptTemplate.h">
+      <Filter>Header Files\Forms.\ScriptTemplate.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Contain\GenStack.h">
+      <Filter>Header Files\Misc.</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\Misc.</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files\Misc.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dl_base.h">
+      <Filter>Header Files\Common.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dl_block.h">
+      <Filter>Header Files\Common.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dl_chr.h">
+      <Filter>Header Files\Common.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dl_err.h">
+      <Filter>Header Files\Common.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dl_file.h">
+      <Filter>Header Files\Common.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dl_log.h">
+      <Filter>Header Files\Common.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Contain\dl_map.h">
+      <Filter>Header Files\Common.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dl_math.h">
+      <Filter>Header Files\Common.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dl_mem.h">
+      <Filter>Header Files\Common.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dl_str.h">
+      <Filter>Header Files\Common.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\dl_time.h">
+      <Filter>Header Files\Common.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\File\genfile.h">
+      <Filter>Header Files\Common.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\File\genfind.h">
+      <Filter>Header Files\Common.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\mwcommon.h">
+      <Filter>Header Files\Common.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Utility\namelist.h">
+      <Filter>Header Files\Common.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Contain\ptrarray.h">
+      <Filter>Header Files\Common.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\String\sstring.h">
+      <Filter>Header Files\Common.</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Contain\temarray.h">
+      <Filter>Header Files\Common.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmCsvDefs.h">
+      <Filter>Header Files\ESM.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmGlobOptions.h">
+      <Filter>Header Files\ESM.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmOptions.h">
+      <Filter>Header Files\ESM.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmOptionsDef.h">
+      <Filter>Header Files\ESM.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmRegDefs.h">
+      <Filter>Header Files\ESM.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmUtils.h">
+      <Filter>Header Files\ESM.</Filter>
+    </ClInclude>
+    <ClInclude Include="mwrecordmap.h">
+      <Filter>Header Files\ESM.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmScrFuncArray.h">
+      <Filter>Header Files\ESM.\Script1.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmScrFuncData.h">
+      <Filter>Header Files\ESM.\Script1.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmScriptCompile.h">
+      <Filter>Header Files\ESM.\Script1.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmScriptDefs.h">
+      <Filter>Header Files\ESM.\Script1.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmScriptError.h">
+      <Filter>Header Files\ESM.\Script1.</Filter>
+    </ClInclude>
+    <ClInclude Include="EsmScriptOptions.h">
+      <Filter>Header Files\ESM.\Script1.</Filter>
+    </ClInclude>
+    <ClInclude Include="mwcustomfunc.h">
+      <Filter>Header Files\ESM.\Script1.</Filter>
+    </ClInclude>
+    <ClInclude Include="...\Common\IL\include\IL\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="...\Common\IL\include\IL\il.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="...\Common\IL\include\IL\ilu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="...\Common\IL\include\IL\ilut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmActivator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmAlchemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmApparatus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmArmor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmBirthSign.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmBodyPart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmBook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmCell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmClothing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmCreature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmDialogue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmDoor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmEnchant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmFaction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmGameSetting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmGlobal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmIngrediant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmItem1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmItem2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmItem3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmLand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmLevelCrea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmLevelItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmLockPick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmMagicEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmMisc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmNpc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmProbe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmRace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmRegion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmRepair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSkill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSoundGen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSpell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmStartScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmStatic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubAADT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubAIDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubAI_A.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubAI_E.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubAI_F.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubAI_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubAI_W.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubALDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubAMBI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubAODT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\ESMSubBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubBKDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubBYDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubByte.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubCellDATA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubCellRef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubCLDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubCNDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubCRDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubCTDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubDATA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubENAM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubENDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubFADT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubFloat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubFRMR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubHEDR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubInfoDATA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubIRDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubLHDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubLKDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubLong.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubLong64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubMCDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubMEDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubName32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubName512.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubNameFix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubNPCO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubNPCS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubNPDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubPBDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubPos6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubRADT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubRIDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubSCHD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubSCVR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubShort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubSKDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubSNAM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubSPDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubWEAT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmSubWPDT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmTES3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\esm\EsmWeapon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\File\csvfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Windows\dl_ToolTip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Windows\TabCtrlSheet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Windows\winutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource.hm">
+      <Filter>Header Files\Misc.</Filter>
+    </None>
+    <None Include="res\cursor1.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MWEdit.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="nodrop.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="customfunctions.dat" />
+    <None Include="Functions.dat" />
+    <None Include="MWEdit.reg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\activato.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\activato.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\alchemy.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\alchemy.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\apparatu.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\armor.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\armor1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\birthsig.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\birthsig.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bluebmp.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00002.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00003.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00004.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00005.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bmp00006.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bodypart.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\book.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\cell.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\cell.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\class.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\class.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\clothing.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\clothing.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\compileb.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\containe.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\containe.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\copybmp.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\creature.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\cutbmp.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dialog.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dialog.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\door.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\door.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\door1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\dropbad.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\effect.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\effect1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\enchant.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\faction.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\find_dia.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\find_dia.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\findbmp.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\funchelp.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\gamesett.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\global.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\global.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ingredia.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ingredia.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\levelcre.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\levelite.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\levelite.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\light.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\light.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\light1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\lockpick.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\lockpick.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\magiceff.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\misc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\misc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MWEdit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MWEditDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\npc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\npc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pastebmp.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\probe.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\probe.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\race.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\race.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\region.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\region.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\repair.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\repair.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\replaceb.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\script.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\script1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\script1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\setting.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\skill.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\skill.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\skill1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sound.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sound.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sound1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\soundgen.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\spell.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\static.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\static.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\testbitm.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\uses_dia.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\weapon.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\weapon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\whitebmp.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
